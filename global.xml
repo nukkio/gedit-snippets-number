@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<snippets>
+  <snippet>
+    <description>number-10</description>
+    <accelerator><![CDATA[<Primary><Shift>KP_Subtract]]></accelerator>
+    <text><![CDATA[$<1:
+try:
+	int($GEDIT_SELECTED_TEXT)
+	return int($GEDIT_SELECTED_TEXT)-10
+except ValueError:
+	return $GEDIT_SELECTED_TEXT
+>]]></text>
+  </snippet>
+  <snippet>
+    <description>number+10</description>
+    <accelerator><![CDATA[<Primary><Shift>KP_Add]]></accelerator>
+    <text><![CDATA[$<1:
+try:
+	int($GEDIT_SELECTED_TEXT)
+	return int($GEDIT_SELECTED_TEXT)+10
+except ValueError:
+	return $GEDIT_SELECTED_TEXT
+>]]></text>
+  </snippet>
+  <snippet>
+    <description>number-1</description>
+    <accelerator><![CDATA[<Primary>KP_Subtract]]></accelerator>
+    <text><![CDATA[$<1:
+try:
+	int($GEDIT_SELECTED_TEXT)
+	return int($GEDIT_SELECTED_TEXT)-1
+except ValueError:
+	return $GEDIT_SELECTED_TEXT
+>]]></text>
+  </snippet>
+  <snippet>
+    <description>number+1</description>
+    <accelerator><![CDATA[<Primary>KP_Add]]></accelerator>
+    <text><![CDATA[$<1:
+try:
+	int($GEDIT_SELECTED_TEXT)
+	return int($GEDIT_SELECTED_TEXT)+1
+except ValueError:
+	return $GEDIT_SELECTED_TEXT
+>]]></text>
+  </snippet>
+</snippets>
