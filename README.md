@@ -16,3 +16,6 @@ and click on 'Import Snippets' (the folder icon at the bottom left)
 Select "global.xml" from unzipped file
 
 The new snippets are under 'Global' and are called "number+1", "number+10", "number-1", "number-10"
+
+
+[more](http://nukkio.blogspot.it/2015/01/gedit-snippet-increasedecrease-number.html)
